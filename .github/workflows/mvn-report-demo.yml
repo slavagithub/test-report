@@ -21,5 +21,6 @@ jobs:
         if: always()
         with:
           files: ./mvn-test/target/**/*.xml
+          report_individual_runs: "true"
 #          test report is not generated if WF triggered manually without commit
 #          https://giters.com/EnricoMi/publish-unit-test-result-action/issues/165
