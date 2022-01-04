@@ -1,2 +1,3 @@
 # test-report 
-Under the pInvestigation of test reporting approaches
+Repo is aimed to investigate different approaches of test result 
+reporting under Github actions.
