@@ -1,4 +1,4 @@
-name: Java CI
+name: Junit test report demo
 
 on: workflow_dispatch
 
@@ -13,5 +13,6 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Build with Maven
+      - name: Build test report with Junit
+        working-directory: ./mvn-test
         run: mvn -B -U test
