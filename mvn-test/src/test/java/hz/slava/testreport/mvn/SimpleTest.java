@@ -17,7 +17,7 @@ public class SimpleTest {
 
     @Test
     public void thirdTest(){
-        Assert.assertFalse("false should be false :)", false);
+        Assert.assertFalse("false should be false :)", true);
     }
 
 }
