@@ -21,3 +21,4 @@ jobs:
         if: always()
         with:
           files: ./mvn-test/target/**/*.xml
+          report_individual_runs: "true"
