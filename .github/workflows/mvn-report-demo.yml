@@ -21,4 +21,4 @@ jobs:
         if: always()
         with:
           files: ./mvn-test/target/**/*.xml
-          report_individual_runs: "true"
+#          https://giters.com/EnricoMi/publish-unit-test-result-action/issues/165
