@@ -1,4 +1,4 @@
-name: junit-report-action demo
+name: test-reporter demo
 
 on: workflow_dispatch
 
