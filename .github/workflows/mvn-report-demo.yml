@@ -13,6 +13,11 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Build test report with Junit
+      - name: Run tests with Junit
         working-directory: ./mvn-test
         run: mvn -B -U test
+      - name: Publish Unit Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v1
+        if: always()
+        with:
+          files: test-results/**/*.xml
