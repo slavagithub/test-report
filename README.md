@@ -24,3 +24,9 @@ to the tests, etc.
 [not published on run without commit](https://giters.com/EnricoMi/publish-unit-test-result-action/issues/165)
 
 
+  
+**3. test-reporter**
+https://github.com/slavagithub/test-report/runs/4705769552?check_suite_focus=true
+
+To check:
+- https://blogs.oracle.com/developers/post/adventures-in-cicd-3-running-tests-publishing-test-reports
